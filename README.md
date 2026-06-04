@@ -13,17 +13,16 @@ Sistema completo para gestão de direitos autorais, royalties e contratos musica
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Arquitetura e Design](#arquitetura-e-design)
 - [Funcionalidades](#funcionalidades)
-- [Casos de Uso](#casos-de-uso-logica-de-negocio)
+- [Casos de Uso (Lógica de Negócio)](#casos-de-uso-lógica-de-negócio)
 - [Tecnologias](#tecnologias)
-- [Estrutura do Sistema](#estrutura-do-sistema-14-setores-modulares)
-- [Segurança e Boas Práticas](#seguranca-e-boas-praticas)
+- [Estrutura do Sistema (14 SETORES Modulares)](#estrutura-do-sistema-14-setores-modulares)
+- [Segurança e Boas Práticas](#segurança-e-boas-práticas)
 - [Escalabilidade e Extensibilidade](#escalabilidade-e-extensibilidade)
-- [Instalação](#instalacao)
+- [Instalação](#instalação)
 - [Resultados e ROI](#resultados-e-roi)
 - [Contato](#contato)
 
-
-## 📖 <a id="sobre"></a>Sobre o Projeto
+## 📖 Sobre o Projeto
 
 O **Plamolja Premium** é um sistema completo de gestão para editoras musicais, desenvolvido sob medida para automatizar e organizar:
 

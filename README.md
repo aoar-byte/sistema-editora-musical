@@ -50,7 +50,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 - ✅ Rastreabilidade completa de todas as transações
 - ✅ Dashboards e relatórios em tempo real
 
-<a id="arquitetura"></a>
+
 ## 🏗️ Arquitetura e Design
 
 ### Camadas da Aplicação
@@ -244,7 +244,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 
 ### Logs de Auditoria (Exemplo)
 
-```javascript
+```.
 // Níveis de log implementados:
 // 🐛 DEBUG: Operações detalhadas (desligado em produção)
 // ℹ️ INFO: Ações normais do sistema

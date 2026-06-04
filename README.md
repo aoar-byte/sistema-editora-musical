@@ -52,26 +52,25 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 
 ### Camadas da Aplicação
 
-```
 ┌─────────────────────────────────────────────────────────────┐
 │                    PRESENTATION LAYER                        │
-│  HTML/CSS/JS (Sanitizado) │ Toast Notifications │ Modals    │
+│  HTML/CSS/JS (Sanitizado) | Toast Notifications | Modals   │
 ├─────────────────────────────────────────────────────────────┤
-│                     BUSINESS LOGIC                           │
+│                    BUSINESS LOGIC                            │
 │  Google Apps Script - 14 SETORES Modulares                  │
-│  • Cache Manager (com expiração)  • Data Validation         │
+│  • Cache Manager (com expiração)                            │
+│  • Data Validation                                          │
 │  • Logging System (níveis: DEBUG, INFO, ERRO)               │
 ├─────────────────────────────────────────────────────────────┤
 │                      DATA LAYER                              │
-│  Google Sheets (Modelado para futura migração SQL)          │
+│  Google Sheets (Modelado para futura migração SQL)           │
 │  • Integridade referencial via UUIDs                        │
 │  • 18 abas interligadas com chaves estrangeiras simuladas   │
 │  • Schema documentado e versionado                          │
 ├─────────────────────────────────────────────────────────────┤
-│                    EXTERNAL SERVICES                         │
-│  Google Drive (Backups) │ Gmail API │ Triggers agendados    │
+│                   EXTERNAL SERVICES                          │
+│  Google Drive (Backups) | Gmail API | Triggers agendados   │
 └─────────────────────────────────────────────────────────────┘
-```
 
 ### Decisões Técnicas Importantes
 

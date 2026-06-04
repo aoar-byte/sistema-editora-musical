@@ -388,10 +388,6 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ---
 
-## 🏆 <a id="reconhecimento"></a> Reconhecimento
-
-*Este README foi avaliado tecnicamente por um especialista em performance e considerado **EXCEPCIONAL** para vagas de Backend Pleno/Sênior.*
-
 **Diferenciais destacados:**
 - Domínio de regras de negócio complexas
 - Arquitetura modular e escalável

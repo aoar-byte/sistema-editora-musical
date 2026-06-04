@@ -11,17 +11,17 @@ Sistema completo para gestão de direitos autorais, royalties e contratos musica
 
 ## 📋 Índice
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Arquitetura e Design](#arquitetura-e-design)
-- [Funcionalidades](#funcionalidades)
-- [Casos de Uso (Lógica de Negócio)](#casos-de-uso-lógica-de-negócio)
-- [Tecnologias](#tecnologias)
-- [Estrutura do Sistema](#estrutura-do-sistema)
-- [Segurança e Boas Práticas](#segurança-e-boas-práticas)
-- [Escalabilidade e Extensibilidade](#escalabilidade-e-extensibilidade)
-- [Instalação](#instalação)
-- [Resultados e ROI](#resultados-e-roi)
-- [Contato](#contato)
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Arquitetura e Design](#-arquitetura-e-design)
+- [Funcionalidades](#-funcionalidades)
+- [Casos de Uso (Lógica de Negócio)](#-casos-de-uso-lógica-de-negócio)
+- [Tecnologias](#-tecnologias)
+- [Estrutura do Sistema](#-estrutura-do-sistema)
+- [Segurança e Boas Práticas](#-segurança-e-boas-práticas)
+- [Escalabilidade e Extensibilidade](#-escalabilidade-e-extensibilidade)
+- [Instalação](#-instalação)
+- [Resultados e ROI](#-resultados-e-roi)
+- [Contato](#-contato)
 
 ## 📖 Sobre o Projeto
 

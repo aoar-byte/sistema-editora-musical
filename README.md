@@ -382,12 +382,6 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ---
 
-⭐ **Se este projeto foi útil para você, considere dar uma estrela no GitHub!**
-
-*Desenvolvido com ☕ e 🎵 para a indústria musical*
-
----
-
 **Diferenciais destacados:**
 - Domínio de regras de negócio complexas
 - Arquitetura modular e escalável

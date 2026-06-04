@@ -11,31 +11,31 @@ Sistema completo para gestão de direitos autorais, royalties e contratos musica
 
 ## 📋 Índice
 
-- [Sobre o Projeto](#sobre-o-projeto)
+- <a href="#sobre">Sobre o Projeto</a>
 
-- [Arquitetura e Design](#arquitetura-e-design)
+- <a href="#arquitetura">Arquitetura e Design</a>
 
-- [Funcionalidades](#funcionalidades)
+- <a href="#funcionalidades">Funcionalidades</a>
 
-- [Casos de Uso](#casos-de-uso)
+- <a href="#casos-de-uso">Casos de Uso</a>
 
-- [Tecnologias](#tecnologias)
+- <a href="#tecnologias">Tecnologias</a>
 
-- [Estrutura do Sistema](#estrutura-do-sistema)
+- <a href="#estrutura">Estrutura do Sistema</a>
 
-- [Segurança e Boas Práticas](#seguranca-e-boas-praticas)
+- <a href="#seguranca">Segurança e Boas Práticas</a>
 
-- [Escalabilidade e Extensibilidade](#escalabilidade-e-extensibilidade)
+- <a href="#escalabilidade">Escalabilidade e Extensibilidade</a>
 
-- [Instalação](#instalacao)
+- <a href="#instalacao">Instalação</a>
 
-- [Resultados e ROI](#resultados-e-roi)
+- <a href="#resultados">Resultados e ROI</a>
 
-- [Contato](#contato)
+- <a href="#contato">Contato</a>
 
 
 
-## 📖 Sobre o Projeto
+## 📖 <a id="sobre"></a>Sobre o Projeto
 
 O **Plamolja Premium** é um sistema completo de gestão para editoras musicais, desenvolvido sob medida para automatizar e organizar:
 
@@ -60,7 +60,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 - ✅ Rastreabilidade completa de todas as transações
 - ✅ Dashboards e relatórios em tempo real
 
-## 🏗️ Arquitetura e Design
+## 🏗️ <a id="arquitetura"></a>Arquitetura e Design
 
 ### Camadas da Aplicação
 
@@ -93,7 +93,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 | **Cache com expiração (30s-30min)** | Balanceia performance e atualização de dados |
 | **Triggers agendados** | Automatiza backups, alertas e limpeza de cache |
 
-## 🚀 Funcionalidades
+## 🚀 <a id="funcionalidades"></a>Funcionalidades
 
 ### 🏢 Cadastros Base
 | Módulo | Descrição | Volume de Dados |
@@ -188,7 +188,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 // • Apenas categorias com participantes recebem valores
 ```
 
-## 💻 Tecnologias
+## 💻 <a id="tecnologias"></a>Tecnologias
 
 ### Backend
 | Tecnologia | Uso |
@@ -236,7 +236,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 
 **Total:** ~12.000 linhas de código organizadas arquiteturalmente
 
-## 🔒 Segurança e Boas Práticas
+## 🔒 <a id="seguranca"></a>Segurança e Boas Práticas
 
 ### Implementadas no Sistema
 
@@ -264,7 +264,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 // 2026-06-04 10:30:15 | PESSOA | CRIACAO | João Silva | INFO
 ```
 
-## 📈 Escalabilidade e Extensibilidade
+## 📈 <a id="escalabilidade"></a>Escalabilidade e Extensibilidade
 
 ### Design para Crescimento
 
@@ -294,7 +294,7 @@ CREATE TABLE obras (
 );
 ```
 
-## 🔧 Instalação
+## 🔧 <a id="instalacao"></a>Instalação
 
 ### Pré-requisitos
 - Conta Google (Gmail/Workspace)
@@ -342,7 +342,7 @@ CREATE TABLE obras (
    Ou execute no editor: adicionarDadosExemplo()
    ```
 
-## 📊 Resultados e ROI
+## 📊 <a id="resultados"></a>Resultados e ROI
 
 ### Métricas de Performance
 
@@ -366,7 +366,7 @@ Investimento (desenvolvimento): ~80 horas (valor do projeto)
 Retorno do investimento: 6 meses
 ```
 
-## 📞 Contato
+## 📞 <a id="contato"></a>Contato
 
 ### Desenvolvedor
 - **Nome:** Leandro Aô

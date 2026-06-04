@@ -128,7 +128,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 
 ### 1. Distribuição de Royalties com Contratos
 
-```javascript
+```
 // Exemplo: Royalty de R$ 100,00 para obra com 2 autores
 // João: 60% da obra (contrato EXCLUSIVO - 75% autor)
 // Maria: 40% da obra (SEM_EDITORA - 100% autor)
@@ -148,7 +148,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 
 ### 2. Adiantamento com Recoupment (FIFO)
 
-```javascript
+```
 // Cenário: Autor com adiantamento pendente
 // Sistema mantém saldo devedor e abate automaticamente
 
@@ -165,7 +165,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 
 ### 3. Distribuição ECAD (Direitos Conexos)
 
-```javascript
+```
 // Cenário: Gravação com Intérprete + Produtor + 2 Músicos
 // Valor: R$ 100,00 de direitos conexos
 

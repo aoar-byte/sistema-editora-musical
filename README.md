@@ -84,7 +84,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 | **Cache com expiração (30s-30min)** | Balanceia performance e atualização de dados |
 | **Triggers agendados** | Automatiza backups, alertas e limpeza de cache |
 
-<a id="funcionalidades"></a>
+
 ## 🚀 Funcionalidades
 
 ### 🏢 Cadastros Base

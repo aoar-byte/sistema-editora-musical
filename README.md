@@ -1,4 +1,4 @@
-```markdown
+```.
 # 🎵 Plamolja Premium - Sistema de Gestão de Editora Musical
 
 > Sistema completo de gestão de direitos autorais, royalties e contratos musicais.
@@ -123,7 +123,6 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 - Alertas automáticos de vencimento de contratos
 - Notificações ECAD para não associados
 
-<a id="casos-de-uso"></a>
 ## 📊 Casos de Uso (Lógica de Negócio)
 
 ### 1. Distribuição de Royalties com Contratos

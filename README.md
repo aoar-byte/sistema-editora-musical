@@ -181,8 +181,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 // • Apenas categorias com participantes recebem valores
 ```
 
-## 💻 <a id="tecnologias"></a>Tecnologias
-
+..
 ### Backend
 | Tecnologia | Uso |
 |------------|-----|

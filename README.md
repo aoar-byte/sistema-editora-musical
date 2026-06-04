@@ -129,7 +129,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 - Alertas automáticos de vencimento de contratos
 - Notificações ECAD para não associados
 
-## 📊 Casos de Uso (Lógica de Negócio)
+## 📊 <a id="casos-de-uso"></a> Casos de Uso (Lógica de Negócio)
 
 ### 1. Distribuição de Royalties com Contratos
 
@@ -211,7 +211,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 | **VS Code** | Desenvolvimento e debug |
 | **Google Apps Script Editor** | Deploy e testes |
 
-## 📁 Estrutura do Sistema (14 SETORES Modulares)
+## 📁 <a id="estrutura-do-sistema"></a> Estrutura do Sistema (14 SETORES Modulares)
 
 | SETOR | Arquivo | Função | Linhas | Dependências |
 |-------|---------|--------|--------|--------------|
@@ -381,7 +381,7 @@ Retorno do investimento: 6 meses
 
 ---
 
-## 📄 Licença
+## 📄 <a id="licenca"></a> Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
@@ -393,7 +393,7 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ---
 
-## 🏆 Reconhecimento
+## 🏆 <a id="reconhecimento"></a> Reconhecimento
 
 *Este README foi avaliado tecnicamente por um especialista em performance e considerado **EXCEPCIONAL** para vagas de Backend Pleno/Sênior.*
 

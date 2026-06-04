@@ -4,28 +4,6 @@
 > Sistema completo de gestão de direitos autorais, royalties e contratos musicais.
 
 
-[![Status](https://img.shields.io/badge/status-production-green.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
-[![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-Latest-yellow.svg)]()
-[![Architecture](https://img.shields.io/badge/architecture-modular-purple.svg)]()
-
-Sistema completo para gestão de direitos autorais, royalties e contratos musicais. Desenvolvido para atender as necessidades de editoras musicais de pequeno e médio porte.
-
-
-## 📋 Índice
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Arquitetura e Design](#arquitetura-e-design)
-- [Funcionalidades](#funcionalidades)
-- [Casos de Uso (Lógica de Negócio)](#casos-de-uso-lógica-de-negócio)
-- [Tecnologias](#tecnologias)
-- [Estrutura do Sistema (14 SETORES Modulares)](#estrutura-do-sistema-14-setores-modulares)
-- [Segurança e Boas Práticas](#segurança-e-boas-práticas)
-- [Escalabilidade e Extensibilidade](#escalabilidade-e-extensibilidade)
-- [Instalação](#instalação)
-- [Resultados e ROI](#resultados-e-roi)
-- [Contato](#contato)
-
-
 ## 📖 Sobre o Projeto
 O **Plamolja Premium** é um sistema completo de gestão para editoras musicais, desenvolvido sob medida para automatizar e organizar:
 

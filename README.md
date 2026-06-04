@@ -10,28 +10,17 @@ Sistema completo para gestão de direitos autorais, royalties e contratos musica
 
 ## 📋 Índice
 
-- <a href="#sobre">Sobre o Projeto</a>
-
-- <a href="#arquitetura">Arquitetura e Design</a>
-
-- <a href="#funcionalidades">Funcionalidades</a>
-
-- <a href="#casos-de-uso">Casos de Uso</a>
-
-- <a href="#tecnologias">Tecnologias</a>
-
-- <a href="#estrutura">Estrutura do Sistema</a>
-
-- <a href="#seguranca">Segurança e Boas Práticas</a>
-
-- <a href="#escalabilidade">Escalabilidade e Extensibilidade</a>
-
-- <a href="#instalacao">Instalação</a>
-
-- <a href="#resultados">Resultados e ROI</a>
-
-- <a href="#contato">Contato</a>
-
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Arquitetura e Design](#arquitetura-e-design)
+- [Funcionalidades](#funcionalidades)
+- [Casos de Uso](#casos-de-uso-logica-de-negocio)
+- [Tecnologias](#tecnologias)
+- [Estrutura do Sistema](#estrutura-do-sistema-14-setores-modulares)
+- [Segurança e Boas Práticas](#seguranca-e-boas-praticas)
+- [Escalabilidade e Extensibilidade](#escalabilidade-e-extensibilidade)
+- [Instalação](#instalacao)
+- [Resultados e ROI](#resultados-e-roi)
+- [Contato](#contato)
 
 
 ## 📖 <a id="sobre"></a>Sobre o Projeto

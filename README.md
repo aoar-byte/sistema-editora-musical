@@ -1,6 +1,9 @@
 ```markdown
 # 🎵 Plamolja Premium - Sistema de Gestão de Editora Musical
 
+> Sistema completo de gestão de direitos autorais, royalties e contratos musicais.
+
+
 [![Status](https://img.shields.io/badge/status-production-green.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-Latest-yellow.svg)]()
@@ -47,7 +50,8 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 - ✅ Rastreabilidade completa de todas as transações
 - ✅ Dashboards e relatórios em tempo real
 
-## 🏗️ <a id="arquitetura"></a>Arquitetura e Design
+<a id="arquitetura"></a>
+## 🏗️ Arquitetura e Design
 
 ### Camadas da Aplicação
 
@@ -80,7 +84,8 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 | **Cache com expiração (30s-30min)** | Balanceia performance e atualização de dados |
 | **Triggers agendados** | Automatiza backups, alertas e limpeza de cache |
 
-## 🚀 <a id="funcionalidades"></a>Funcionalidades
+<a id="funcionalidades"></a>
+## 🚀 Funcionalidades
 
 ### 🏢 Cadastros Base
 | Módulo | Descrição | Volume de Dados |
@@ -118,7 +123,8 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 - Alertas automáticos de vencimento de contratos
 - Notificações ECAD para não associados
 
-## 📊 <a id="casos-de-uso"></a> Casos de Uso (Lógica de Negócio)
+<a id="casos-de-uso"></a>
+## 📊 Casos de Uso (Lógica de Negócio)
 
 ### 1. Distribuição de Royalties com Contratos
 

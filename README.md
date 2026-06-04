@@ -11,8 +11,8 @@
 
 Sistema completo para gestão de direitos autorais, royalties e contratos musicais. Desenvolvido para atender as necessidades de editoras musicais de pequeno e médio porte.
 
-## 📋 Índice
 
+## 📋 Índice
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Arquitetura e Design](#arquitetura-e-design)
 - [Funcionalidades](#funcionalidades)
@@ -25,8 +25,8 @@ Sistema completo para gestão de direitos autorais, royalties e contratos musica
 - [Resultados e ROI](#resultados-e-roi)
 - [Contato](#contato)
 
-## 📖 Sobre o Projeto
 
+## 📖 Sobre o Projeto
 O **Plamolja Premium** é um sistema completo de gestão para editoras musicais, desenvolvido sob medida para automatizar e organizar:
 
 - Cadastro de compositores, intérpretes e músicos
@@ -35,16 +35,16 @@ O **Plamolja Premium** é um sistema completo de gestão para editoras musicais,
 - Distribuição automática de royalties com regras de negócio complexas
 - Comunicação com autores via e-mail e WhatsApp
 
-### Problema Resolvido
 
+### Problema Resolvido
 Antes do sistema, os processos eram manuais e propensos a erros:
 - ❌ Planilhas desconectadas e dados duplicados
 - ❌ Cálculo de royalties sujeito a erros humanos
 - ❌ Dificuldade em rastrear adiantamentos e contratos
 - ❌ Ausência de histórico centralizado
 
-### Solução Implementada
 
+### Solução Implementada
 - ✅ Banco de dados modelado com integridade referencial simulada via UUIDs
 - ✅ Cálculos automáticos com validação de integridade
 - ✅ Rastreabilidade completa de todas as transações
@@ -52,9 +52,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 
 
 ## 🏗️ Arquitetura e Design
-
 ### Camadas da Aplicação
-
 ┌─────────────────────────────────────────────────────────────┐
 │                    PRESENTATION LAYER                        │
 │  HTML/CSS/JS (Sanitizado) | Toast Notifications | Modals   │
@@ -75,8 +73,8 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 │  Google Drive (Backups) | Gmail API | Triggers agendados   │
 └─────────────────────────────────────────────────────────────┘
 
-### Decisões Técnicas Importantes
 
+### Decisões Técnicas Importantes
 | Decisão | Justificativa |
 |---------|---------------|
 | **UUIDs como chaves primárias** | Permite migração futura para SQL/PostgreSQL sem conflitos |
@@ -86,7 +84,6 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 
 
 ## 🚀 Funcionalidades
-
 ### 🏢 Cadastros Base
 | Módulo | Descrição | Volume de Dados |
 |--------|-----------|-----------------|
@@ -123,8 +120,8 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 - Alertas automáticos de vencimento de contratos
 - Notificações ECAD para não associados
 
-## 📊 Casos de Uso (Lógica de Negócio)
 
+## 📊 Casos de Uso (Lógica de Negócio)
 ### 1. Distribuição de Royalties com Contratos
 
 ```.
@@ -146,7 +143,6 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 ```
 
 ### 2. Adiantamento com Recoupment (FIFO)
-
 ```.
 // Cenário: Autor com adiantamento pendente
 // Sistema mantém saldo devedor e abate automaticamente
@@ -163,7 +159,6 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 ```
 
 ### 3. Distribuição ECAD (Direitos Conexos)
-
 ```
 // Cenário: Gravação com Intérprete + Produtor + 2 Músicos
 // Valor: R$ 100,00 de direitos conexos
@@ -180,7 +175,7 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 // • Apenas categorias com participantes recebem valores
 ```
 
-..
+
 ### Backend
 | Tecnologia | Uso |
 |------------|-----|
@@ -204,8 +199,8 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 | **VS Code** | Desenvolvimento e debug |
 | **Google Apps Script Editor** | Deploy e testes |
 
-## 📁 <a id="estrutura-do-sistema"></a> Estrutura do Sistema (14 SETORES Modulares)
 
+## 📁 <a id="estrutura-do-sistema"></a> Estrutura do Sistema (14 SETORES Modulares)
 | SETOR | Arquivo | Função | Linhas | Dependências |
 |-------|---------|--------|--------|--------------|
 | 0 | constantes.gs | Configurações, constantes, cabeçalhos | ~1500 | Nenhuma |
@@ -227,10 +222,9 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 
 **Total:** ~12.000 linhas de código organizadas arquiteturalmente
 
+
 ## 🔒 <a id="seguranca"></a>Segurança e Boas Práticas
-
 ### Implementadas no Sistema
-
 | Prática | Implementação | Benefício |
 |---------|---------------|-----------|
 | **Sanitização de inputs** | `sanitizarHTML()` em todas as UIs | Prevenção XSS |
@@ -241,8 +235,8 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 | **Tratamento de erros** | Try/Catch em todas as funções críticas | Robustez |
 | **Cache em 3 camadas** | Memória → Properties → Planilha | Performance |
 
-### Logs de Auditoria (Exemplo)
 
+### Logs de Auditoria (Exemplo)
 ```.
 // Níveis de log implementados:
 // 🐛 DEBUG: Operações detalhadas (desligado em produção)
@@ -255,10 +249,9 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 // 2026-06-04 10:30:15 | PESSOA | CRIACAO | João Silva | INFO
 ```
 
+
 ## 📈 <a id="escalabilidade"></a>Escalabilidade e Extensibilidade
-
 ### Design para Crescimento
-
 | Aspecto | Implementação | Benefício Futuro |
 |---------|---------------|------------------|
 | **UUIDs como PK** | Identificadores universais | Migração para SQL sem conflitos |
@@ -267,8 +260,8 @@ Antes do sistema, os processos eram manuais e propensos a erros:
 | **Cache configurável** | Expiração ajustável (30s-30min) | Balancear performance |
 | **Triggers agendados** | Horários configuráveis | Automatizar sem hardcoding |
 
-### Potencial para Migração (Supabase/PostgreSQL)
 
+### Potencial para Migração (Supabase/PostgreSQL)
 ```sql
 -- A estrutura atual foi modelada para migração futura:
 -- • UUIDs compatíveis com PostgreSQL
@@ -286,14 +279,13 @@ CREATE TABLE obras (
 ```
 
 ## 🔧 <a id="instalacao"></a>Instalação
-
 ### Pré-requisitos
 - Conta Google (Gmail/Workspace)
 - Acesso ao Google Drive
 - (Opcional) VS Code para desenvolvimento
 
-### Passo a Passo
 
+### Passo a Passo
 1. **Criar a planilha**
    ```bash
    Acesse drive.google.com
@@ -333,10 +325,9 @@ CREATE TABLE obras (
    Ou execute no editor: adicionarDadosExemplo()
    ```
 
+
 ## 📊 <a id="resultados"></a>Resultados e ROI
-
 ### Métricas de Performance
-
 | Métrica | Antes (Manual) | Depois (Sistema) | Melhoria |
 |---------|----------------|------------------|----------|
 | **Processamento de royalties (mensal)** | 2 horas | 15 minutos | **87.5%** ⬇️ |
@@ -345,8 +336,8 @@ CREATE TABLE obras (
 | **Tempo de resposta em consultas** | 1 dia | Instantâneo | **99%** ⬇️ |
 | **Satisfação do cliente (autores)** | 7/10 | 10/10 | **+43%** ⬆️ |
 
-### ROI Calculado
 
+### ROI Calculado
 ```
 Custo operacional mensal (antes): 20 horas × R$ 50/hora = R$ 1.000
 Custo operacional mensal (depois): 4 horas × R$ 50/hora = R$ 200
@@ -357,8 +348,8 @@ Investimento (desenvolvimento): ~80 horas (valor do projeto)
 Retorno do investimento: 6 meses
 ```
 
-## 📞 <a id="contato"></a>Contato
 
+## 📞 <a id="contato"></a>Contato
 ### Desenvolvedor
 - **Nome:** Leandro Aô
 
@@ -375,11 +366,10 @@ Retorno do investimento: 6 meses
 ---
 
 ## 📄 <a id="licenca"></a> Licença
-
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
----
 
+---
 **Diferenciais destacados:**
 - Domínio de regras de negócio complexas
 - Arquitetura modular e escalável
